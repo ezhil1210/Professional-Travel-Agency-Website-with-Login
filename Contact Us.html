@@ -1,0 +1,278 @@
+<html><HEAD><link rel="stylesheet" href="./css/style.css"></HEAD>
+    <body>
+        <style>
+            body{
+    padding:0;
+    margin:0;
+    box-sizing:border;
+    font-family:'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    background-color:rgba(4, 1, 17, 0.849);
+}
+
+/* Home page */
+
+.banner{
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.content{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(1, 0, 5, 0.3),rgba(4, 1, 17, 0.3));
+
+
+
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 60px;
+    margin: 2vh;
+    margin-left: 8%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 4vh;
+}
+
+.navbar a{
+    color: white;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-weight: 500;   
+    text-decoration: none;
+    transition: ease 0.40s;
+}
+
+.navbar a:hover,.navbar a.active{
+    background: white;
+    color: black;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 5px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.title{
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 4vh;
+    color: rgb(255, 255, 255);
+    padding: 14px 17px;
+    margin-top: 32vh;
+    text-align: center;
+    vertical-align: center;
+}
+
+.title h1{
+    font-size: 10vh;
+    text-shadow: 2px rgb(215, 18, 255);
+    transition: ease 0.3s;
+}
+
+.title h1:hover{
+    color:transparent;
+    -webkit-text-stroke: 1px white;
+    
+}
+
+.button{
+    display: inline-block;
+    margin-top:5vh;
+    font-size: 25px;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    /* background-color:rgb(164, 44, 44); */
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: ease 0.30s;
+ 
+}
+
+.button:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.644);
+    /* border: 2px solid rgb(42, 37, 68); */
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+    padding: 10px 60px;
+
+}
+/* Footer */
+
+.footer{
+    margin-top: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+.foot{
+    padding: 20px 0;
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.footlinks h4{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.footlinks h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    left: 0;
+    bottom: -7px;
+    background: white;
+}
+
+.footlinks ul li{
+    margin-bottom: 15px;
+}
+
+.footlinks ul li a{
+    font-size: 17px;
+    color: #dddddd;
+    display: block;
+    transition: ease 0.30s;
+}
+
+.footlinks ul li a:hover{
+    transform: translate(6px);
+    color: white;
+}
+.connectbtn:hover{
+    background-color: transparent;
+    border: 2px solid #fc0050;
+    transform: scale(1.1);
+}
+
+.connect-section{
+    margin-top: 26px;
+}
+h2 .heading{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+}
+        </style>
+        <nav>
+            <img src=".\logo.png" class="logo" alt="Logo" title="NSN INFINITE TRAILS">
+            
+            <ul class="navbar">
+                <li>
+                    <a href=".\index.html">Home</a>
+                    <a href=".\index.html #locations">Locations</a>
+                    <a href=".\index.html #package">Packages</a>
+                    <a href="./about.html">About Us</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+
+        <div class="title">
+        <h2 class="heading">CONTACT US FOR MORE DETAILS</h2><br>
+        <P>PHONE : +91 7358645270 or EMAIL:helpinghandsnsn@gmail.com</P>
+        <br>
+        <h2>To experience our service</h2>
+        <a href="https://forms.gle/r8d9aseF224AfRkM9" class="button">Register Now!</a>
+        </div>
+
+<!-- Footer -->
+
+<section class="footer">
+    <div class="foot">
+        <div class="footer-content">
+            
+            <div class="footlinks">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfFa5DbwbxutXdny4pFggb7_boeBtTwUw8o81xovmKbcGORLA/viewform">Register</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./Contact Us.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footlinks">
+                <h4>Connect</h4>
+                <div class="social">
+                    <a href="https://www.instagram.com/xzhil_10" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.github.com/ezhil1210" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="end">
+        <p>Copyright © 2023 NSN Infinite Trails All Rights Reserved.<br>Website developed by: Kavin, Prajan, Ezhil</p>
+    </div>
+</section>
+
+
+ 
+</body>
+</html>
