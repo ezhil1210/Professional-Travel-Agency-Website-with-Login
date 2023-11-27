@@ -7,9 +7,9 @@ Run the file with localhost for full capabilities(ex. XAMPP)
 
 3rd prize winner in a National Level Competition
 
-Project developed by Ezhil(and team)
-
-mail: ezhil12102007@gmail.com
+Project devolped by: Kavin (skavin1979@gmail.com) 
+                     Prajan Sanjay (prajansanjayk@gmail.com) 
+                     Ezhil Kumar (ezhil12102007@gmail.com)
 
 
 Chennai,India
